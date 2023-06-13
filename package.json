@@ -1,0 +1,14 @@
+{
+    "name": "com.b-com.solarcloud",
+    "version": "0.0.1",
+    "displayName": "SolARCloud",
+    "description": "SolAR Cloud Unity Package",
+    "unity": "2021.1",
+    "dependencies": {
+    },
+    "author": {
+        "name": "b<>com",
+        "email": "maxime.papin@b-com.com",
+        "url": "https://www.b-com.com"
+    }
+}
