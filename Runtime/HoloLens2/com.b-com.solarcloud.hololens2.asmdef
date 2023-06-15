@@ -1,0 +1,22 @@
+{
+    "name": "com.b-com.solarcloud.hololens2",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7ce40223b0d93364193679eacabad659",
+        "GUID:3b76ab8242cc35d479edf0a949d56d59"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WSA"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_WSA"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
