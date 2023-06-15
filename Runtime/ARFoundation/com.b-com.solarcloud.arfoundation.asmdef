@@ -1,0 +1,27 @@
+{
+    "name": "com.b-com.solarcloud.arfoundation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7ce40223b0d93364193679eacabad659",
+        "GUID:a9420e37d7990b54abdef6688edbe313",
+        "GUID:9e6bdf94fcb245c585c26819fa23a202",
+        "GUID:dfd0ce20189d48e5b22bb4134b558f5a",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:92703082f92b41ba80f0d6912de66115"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_ANDROID || UNITY_IOS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
