@@ -1,6 +1,6 @@
 {
     "name": "com.b-com.solarcloud",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "displayName": "SolARCloud",
     "description": "SolAR Cloud Unity Package",
     "unity": "2021.1",
