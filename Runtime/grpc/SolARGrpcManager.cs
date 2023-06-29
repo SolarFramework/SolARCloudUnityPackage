@@ -41,9 +41,9 @@ namespace Com.Bcom.Solar.Gprc
         
         static DateTime DEADLINE => DateTime.UtcNow.AddSeconds(2);
 
-        private readonly SolARMappingAndRelocalizationProxy.SolARMappingAndRelocalizationProxyClient client;
+        private readonly SolARFrontEndProxy.SolARFrontEndProxyClient client;
 
-        private SolARMappingAndRelocalizationProxy.SolARMappingAndRelocalizationProxyClient[] clients;
+        private SolARFrontEndProxy.SolARFrontEndProxyClient[] clients;
 
         public GrpcManager(string serviceAddress,
                            int port,
@@ -53,7 +53,7 @@ namespace Com.Bcom.Solar.Gprc
             this.threadSlots = threadSlots;
             this.networkSlots = networkSlots;
 
-            clients = new SolARMappingAndRelocalizationProxy.SolARMappingAndRelocalizationProxyClient[networkSlots];
+            clients = new SolARFrontEndProxy.SolARFrontEndProxyClient[networkSlots];
 
             for (int i = 0; i < networkSlots; i++)
             {
@@ -67,7 +67,7 @@ namespace Com.Bcom.Solar.Gprc
                         }
                     });
 
-                clients[i] = new SolARMappingAndRelocalizationProxy.SolARMappingAndRelocalizationProxyClient(newChannel);
+                clients[i] = new SolARFrontEndProxy.SolARFrontEndProxyClient(newChannel);
             }
             client = clients[0];
         }
