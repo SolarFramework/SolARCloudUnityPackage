@@ -1,3 +1,7 @@
+# DEPRECATED - This repo is no longer maintained
+
+----
+
 # SolARCloud Unity Package
 
 This Unity package contains the scripts required to communicate with SolAR cloud services.
